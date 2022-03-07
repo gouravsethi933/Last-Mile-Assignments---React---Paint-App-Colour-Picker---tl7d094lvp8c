@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 export default function Selection({ applyColor }) {
   let [color, setColor] = useState({ background: "" });
+
   return (
     <>
       <div
